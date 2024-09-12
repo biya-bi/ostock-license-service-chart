@@ -1,6 +1,6 @@
 replicaCount: 1
 image:
-  repository: jcr.nguiland.org/docker-local/com.optimagrowth/licensing-service
+  repository: jcr.nguiland.org/docker-local/com.optimagrowth/license-service
   pullPolicy: Always
   tag: 0.0.1-SNAPSHOT
 imagePullSecrets: []
@@ -12,7 +12,7 @@ serviceAccount:
   annotations: {}
   name: ''
 podAnnotations:
-  appCommitId: c22f61fce6eb5d91796e7252367b653c31c1ff10
+  appCommitId: 80d711d5b19df10b70cc777c54fc35498894c266
 podLabels: {}
 podSecurityContext: {}
 securityContext: {}
