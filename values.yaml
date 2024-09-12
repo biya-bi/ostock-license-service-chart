@@ -1,6 +1,6 @@
 replicaCount: 1
 image:
-  repository: artifactory-jcr.infra/docker-local/com.optimagrowth/licensing-service
+  repository: artifactory-jcr.infra/docker-local/com.optimagrowth/license-service
   pullPolicy: Always
   tag: 0.0.1-SNAPSHOT
 imagePullSecrets: []
