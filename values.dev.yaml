@@ -12,7 +12,7 @@ serviceAccount:
   annotations: {}
   name: ''
 podAnnotations:
-  appCommitId: b3970bd0c4b8cd4982090453ef915eab528bc7d6
+  appCommitId: 8d176f2a41c0f4f3ac137aed54cc0b5a596d9202
 podLabels: {}
 podSecurityContext: {}
 securityContext: {}
